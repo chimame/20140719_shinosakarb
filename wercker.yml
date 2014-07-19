@@ -19,6 +19,7 @@ build:
         name: Run RSpec
         code: bundle exec rspec
         deploy:
+deploy:
   steps:
     - heroku-deploy:
         install-toolbelt: true
